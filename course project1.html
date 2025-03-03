@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, inital-scale=1.0">
+      <link rel="stylesheet" href="course project1.css" />
+        <title>Weed Shop survey form</title>
+   </head>
+   <body>
+     <div class="menu">
+      <h1 id="title">Cannabis Shop Survey</h1>
+      <p id="description">Thank you for taking the time to help us serve you better!</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="enter your name" required /></label>
+          <label id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="enter your email" required /></label>
+          <label id="number-label">Age (optional) <input id="number" type="number" placeholder="enter your age" min="21" max="120" /></label>
+          <label id="dropdown-label">How did you hear about us?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">adds</option>
+            <option value="2">friend</option>
+            <option value="3">Cannabis forum</option>
+            <option value="4">Other</option>
+          </select>
+          </fieldset>
+          <fieldset>
+            <label id="radio-label">Would you recommend us?</label>
+          <label><input id="yes" type="radio" name="radio" class="inline" value="option1" checked /> Yes</label>
+          <label><input id="maybe" type="radio" name="radio" class="inline" value="option2" /> Maybe</label>
+          <label><input id="no" type="radio" name="radio" class="inline" value="option3" /> No</label>
+          </fieldset>
+          <fieldset> 
+        <label>Favorite Strain</label>
+          <label><input id="indica" type="checkbox" class="inline" value="option1" /> Indica</label>
+           <label><input id="hybrid" type="checkbox" class="inline" value="option2" /> Hybrid</label>
+            <label><input id="sativa" type="checkbox" class="inline" value="option3" /> Sativa</label>
+          </fieldset>
+          <fieldset>
+            <label for="bio">Any comments or suggestions:
+          <textarea id="bio" name="bio" rows="3" cols="30"></textarea>
+        </label>
+          </fieldset>
+          <fieldset>
+            <input id="submit" type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
+    </body>
+</html>

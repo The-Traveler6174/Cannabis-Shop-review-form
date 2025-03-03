@@ -1,0 +1,115 @@
+#title {
+  width: 100%;
+  height: 0%;
+  margin: 0;
+}
+
+@font-face {
+font-family: CustomFont;
+src: url(SuperShiny-0v0rG.ttf) format(truetype);
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: CustomFont;
+  font-size: 20px;
+  background-image: url(https://media.istockphoto.com/id/1035771540/photo/cannabis-leaves-on-marijuana-plant.jpg?s=612x612&w=0&k=20&c=8tvwpDWlqkZvF8KIFavkrCQMx2ERVVzQcdWx9sClBCQ=);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p {
+ padding-top: 1em;
+}
+
+form { 
+  width: 100%;
+  max-width: 350px;
+  min-width: 150px;
+  height: 0%;
+  margin: 1em auto;
+  padding: 2em 2em;
+  text-align: center;
+}
+
+#description {
+  width: 100%;
+  height: 0%;
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  padding-top: none;
+  border-bottom: none;
+  border-top: 3px solid;
+}
+
+  label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 17px;
+}
+
+ input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea, select{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.menu {
+  width: 80%;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+#number {
+  width: 100%;
+  height: 0%;
+  margin: 0;
+  
+}
+
+#name {
+  width: 100%;
+  height: 0%;
+  margin: 0;
+}
+
+#email {
+  width: 100%;
+  height: 0%;
+  margin: 0;
+}
+
+#dropdown {
+  width: 40%;
+  height: 0%;
+  margin: 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#email-label, #number-label, #dropdown-label, #radio-label {
+  padding-top: 20px;
+}
